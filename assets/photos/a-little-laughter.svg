@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+  <title id="title">An illustrated moment of laughter</title>
+  <desc id="desc">The same fictional bride and groom laughing together in the garden.</desc>
+  <defs>
+    <linearGradient id="garden" x2=".9" y2="1"><stop stop-color="#ead4c8"/><stop offset=".55" stop-color="#c2a3a0"/><stop offset="1" stop-color="#85666b"/></linearGradient>
+    <linearGradient id="ivory" x2="1" y2="1"><stop stop-color="#fffdf6"/><stop offset="1" stop-color="#e0d4c4"/></linearGradient>
+  </defs>
+  <rect width="900" height="1120" fill="url(#garden)"/>
+  <circle cx="210" cy="196" r="121" fill="#faebca" opacity=".62"/>
+  <path d="M0 571q172-133 325-46t292-31q160-102 283-12v638H0Z" fill="#c4a2a0"/>
+  <path d="M0 759q160-119 357-38t265-20q143-73 278-11v430H0Z" fill="#8a676e"/>
+  <g fill="#f7e8cf">
+    <circle cx="92" cy="570" r="9"/><circle cx="124" cy="546" r="6"/><circle cx="774" cy="636" r="9"/>
+    <circle cx="806" cy="611" r="6"/><circle cx="184" cy="730" r="7"/><circle cx="701" cy="751" r="6"/>
+  </g>
+  <ellipse cx="450" cy="1040" rx="298" ry="43" fill="#49333a" opacity=".27"/>
+  <!-- Bride leaning into the groom -->
+  <path d="M295 524q-77 43-93 132l-86 310q158 90 377 32l-38-360q-13-86-160-114Z" fill="url(#ivory)"/>
+  <path d="M290 557q8 110 60 168-79 105-82 255h-76q43-225-28-369Z" fill="#fffbf2"/>
+  <path d="M253 588q-54 62-73 135l44 28q68-43 94-122" fill="#87533f"/>
+  <path d="M267 360q-1-84 82-94 88 5 94 102l-9 88q-14 84-87 96-77-10-83-107Z" fill="#85523f"/>
+  <g fill="#28221f"><circle cx="262" cy="310" r="51"/><circle cx="309" cy="269" r="58"/><circle cx="367" cy="274" r="54"/><circle cx="418" cy="309" r="43"/></g>
+  <path d="M289 390q15-9 30 0m61 0q15-9 30 0" fill="none" stroke="#362621" stroke-linecap="round" stroke-width="5"/>
+  <ellipse cx="308" cy="408" rx="5" ry="7" fill="#211c1a"/><ellipse cx="390" cy="408" rx="5" ry="7" fill="#211c1a"/>
+  <path d="M350 407q-4 17 4 21m-31 26q29 29 60 0" fill="none" stroke="#5b352c" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="285" cy="440" r="12" fill="#cc8570" opacity=".7"/><circle cx="416" cy="440" r="12" fill="#cc8570" opacity=".7"/>
+  <path d="m286 515 66 60 68-73 22 43-92 99-90-91Z" fill="#fffaf1"/>
+  <path d="m352 581 19 26-18 70-18-70Z" fill="#ae8950"/>
+  <circle cx="352" cy="688" r="9" fill="#ae8950"/>
+  <!-- Groom, turned toward her -->
+  <path d="M505 504q-70 35-91 123l-43 346q165 72 377-7l-68-378q-14-67-97-93Z" fill="#24252a"/>
+  <path d="m506 513 60 92 59-100q-2 208 56 364-72 34-139 7 38-185-36-363Z" fill="#f3efe7"/>
+  <path d="m506 517 60 88-56 64-44-82Zm119-9-59 97 57 62 43-86Z" fill="#1e2024"/>
+  <path d="m565 608-17 34 20 177 21-179-17-33Z" fill="#9e5749"/>
+  <path d="M539 307q-4-77 69-94 88 3 95 94l-8 87q-13 83-88 99-78-14-83-102Z" fill="#704635"/>
+  <path d="M522 326q-8-74 58-98 98-15 125 56l-2 44q-36-50-94-51-49 1-81 36Z" fill="#211d1c"/>
+  <path d="M546 389q16-10 32 0m65-1q16-10 31 1" fill="none" stroke="#30221d" stroke-linecap="round" stroke-width="5"/>
+  <ellipse cx="566" cy="406" rx="5" ry="7" fill="#201b19"/><ellipse cx="662" cy="405" rx="5" ry="7" fill="#201b19"/>
+  <path d="M608 405q-7 18 3 23m-28 25q27 26 57-1" fill="none" stroke="#482c23" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="541" cy="434" r="12" fill="#bd7760" opacity=".65"/><circle cx="689" cy="433" r="12" fill="#bd7760" opacity=".65"/>
+  <path d="M540 508q58 36 113-2l-1 36q-55 35-109 0Z" fill="#fffdf8"/>
+  <path d="M370 651q34-20 58 1l24 20-19 25-40-11q-31 8-50-16Z" fill="#85523f"/>
+  <path d="M450 671q20-26 42-11l29 19-20 24-43 3-19-17Z" fill="#704635"/>
+  <g fill="#fbf4e7" opacity=".9"><path d="m161 302 6 14 14 6-14 6-6 14-6-14-14-6 14-6Z"/><path d="m755 268 5 11 11 5-11 5-5 11-5-11-11-5 11-5Z"/></g>
+</svg>

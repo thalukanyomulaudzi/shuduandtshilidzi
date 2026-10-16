@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1200" role="img" aria-labelledby="title desc">
+  <title id="title">An illustrated wedding portrait</title>
+  <desc id="desc">A fictional Black bride and groom in ivory and black, sharing a warm moment in a garden.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#edcdbb"/>
+      <stop offset="1" stop-color="#f4e8d5"/>
+    </linearGradient>
+    <linearGradient id="gown" x2=".9" y2="1">
+      <stop stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#e6d9c8"/>
+    </linearGradient>
+    <linearGradient id="suit" x2="1" y2="1">
+      <stop stop-color="#454448"/>
+      <stop offset="1" stop-color="#17191c"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="1200" fill="url(#sky)"/>
+  <circle cx="735" cy="214" r="127" fill="#f7e5bc" opacity=".64"/>
+  <path d="M0 643q188-192 367-54t311-10q156-113 282-8v629H0Z" fill="#c9aaa7"/>
+  <path d="M0 784q206-125 385-37t288-28q146-82 287-2v483H0Z" fill="#947378"/>
+  <g fill="none" stroke="#78434d" stroke-linecap="round" stroke-width="9" opacity=".8">
+    <path d="M79 1038q67-175 17-312m20 176q-78-56-80-119m76 76q56-76 53-136"/>
+    <path d="M849 1050q-69-157-22-301m-16 178q78-45 83-105m-77 64q-60-73-57-133"/>
+  </g>
+  <g fill="#eee1ce">
+    <ellipse cx="35" cy="775" rx="25" ry="12" transform="rotate(24 35 775)"/>
+    <ellipse cx="156" cy="840" rx="28" ry="13" transform="rotate(-32 156 840)"/>
+    <ellipse cx="876" cy="817" rx="28" ry="14" transform="rotate(31 876 817)"/>
+    <ellipse cx="799" cy="870" rx="28" ry="13" transform="rotate(-28 799 870)"/>
+  </g>
+  <ellipse cx="482" cy="1080" rx="337" ry="54" fill="#51343b" opacity=".22"/>
+  <!-- Bride -->
+  <path d="M329 487q-93 48-142 186l-115 397q183 99 426 29l-65-448q-10-102-104-164Z" fill="url(#gown)"/>
+  <path d="m310 536 90 86 90-79q-31 220-82 549h-92q22-282-6-556Z" fill="#fffaf1" opacity=".72"/>
+  <path d="M248 627q-73 52-105 141l86 57q78-65 108-161" fill="#a66e55"/>
+  <path d="M239 638q-54 43-88 130l37 27q72-40 108-142" fill="#f4e9d8"/>
+  <path d="M276 375q0-102 98-106 108 2 112 118l-11 92q-17 96-99 104-91-11-100-119Z" fill="#85523f"/>
+  <path d="M269 382q-26-122 68-158 126-54 168 70 13 42-8 113l-27-55q-10-85-91-81-58 3-82 73l-11 75Z" fill="#28221f"/>
+  <g fill="#322824">
+    <circle cx="286" cy="315" r="57"/><circle cx="333" cy="268" r="61"/>
+    <circle cx="389" cy="264" r="58"/><circle cx="445" cy="300" r="55"/>
+  </g>
+  <path d="M311 408q18-11 34 0m63 0q16-10 32 1" fill="none" stroke="#362621" stroke-linecap="round" stroke-width="6"/>
+  <ellipse cx="333" cy="425" rx="5" ry="7" fill="#201b19"/><ellipse cx="424" cy="425" rx="5" ry="7" fill="#201b19"/>
+  <path d="M372 429q-5 21 5 24m-21 32q19 16 39-1" fill="none" stroke="#5b352c" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="306" cy="456" r="13" fill="#ca806d" opacity=".65"/><circle cx="447" cy="456" r="13" fill="#ca806d" opacity=".65"/>
+  <path d="m318 515 60 70 62-76 27 36-88 107-91-96Z" fill="#fffaf2"/>
+  <path d="m378 585 21 30-18 88-22-86Z" fill="#ae8950"/>
+  <circle cx="380" cy="701" r="10" fill="#ae8950"/>
+  <!-- Groom -->
+  <path d="M529 500q-72 30-96 119l-37 390q157 69 384-5l-72-402q-18-78-99-105Z" fill="url(#suit)"/>
+  <path d="m529 507 56 99 61-99q-4 217 56 394-73 34-146 9 39-196-27-403Z" fill="#f4f0e8"/>
+  <path d="m529 516 57 91-55 62-41-80Zm117-8-60 100 56 65 46-88Z" fill="#252529"/>
+  <path d="m582 607-16 39 20 204 22-205-17-38Z" fill="#9b5345"/>
+  <path d="M548 271q-3-49 75-53 82 10 88 96l-4 101q-10 92-90 112-88-16-91-105Z" fill="#704635"/>
+  <path d="M523 296q-10-84 64-102 101-20 126 59l-2 46q-38-53-96-54-43 0-80 34Z" fill="#211d1c"/>
+  <path d="M542 382q18-11 34-1m69-1q17-11 33 0" fill="none" stroke="#30221d" stroke-linecap="round" stroke-width="6"/>
+  <ellipse cx="562" cy="400" rx="5" ry="7" fill="#201b19"/><ellipse cx="661" cy="400" rx="5" ry="7" fill="#201b19"/>
+  <path d="M609 402q-8 21 2 26m-25 35q23 17 48-1" fill="none" stroke="#482c23" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="537" cy="430" r="13" fill="#bd7760" opacity=".62"/><circle cx="687" cy="429" r="13" fill="#bd7760" opacity=".62"/>
+  <path d="M539 510q57 35 113-1l-1 38q-53 35-109 0Z" fill="#fffdf8"/>
+  <!-- Intertwined fingers -->
+  <path d="M455 652q38-16 70 10l29 25-23 32-54-23q-40 5-63-21Z" fill="#85523f"/>
+  <path d="M551 676q21-32 47-16l27 21-24 30-49 7-26-19Z" fill="#704635"/>
+  <g fill="#a65f4c" opacity=".9">
+    <circle cx="186" cy="309" r="8"/><circle cx="210" cy="283" r="5"/><circle cx="772" cy="544" r="8"/><circle cx="794" cy="516" r="5"/>
+  </g>
+  <g fill="#fff8eb" opacity=".7">
+    <circle cx="129" cy="202" r="3"/><circle cx="810" cy="350" r="4"/><circle cx="718" cy="189" r="3"/><circle cx="242" cy="576" r="4"/>
+  </g>
+</svg>

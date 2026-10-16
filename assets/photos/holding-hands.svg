@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+  <title id="title">An illustrated couple holding hands</title>
+  <desc id="desc">The same fictional bride and groom, smiling together in a sunlit garden.</desc>
+  <defs>
+    <linearGradient id="backdrop" x2="0" y2="1"><stop stop-color="#d9d8c5"/><stop offset="1" stop-color="#f0d4c1"/></linearGradient>
+    <linearGradient id="dress" x2="1" y2="1"><stop stop-color="#fffdf6"/><stop offset="1" stop-color="#dfd3c3"/></linearGradient>
+  </defs>
+  <rect width="900" height="1120" fill="url(#backdrop)"/>
+  <circle cx="706" cy="224" r="133" fill="#f9e8bd" opacity=".69"/>
+  <path d="M0 596q157-119 322-22t300-18q160-103 278-6v570H0Z" fill="#c8aaa4"/>
+  <path d="M0 744q199-106 376-30t257-17q137-62 267 4v419H0Z" fill="#8e6b70"/>
+  <g fill="#eee0ca" opacity=".85"><circle cx="139" cy="575" r="9"/><circle cx="173" cy="556" r="6"/><circle cx="756" cy="621" r="9"/><circle cx="790" cy="597" r="6"/></g>
+  <ellipse cx="458" cy="1041" rx="300" ry="45" fill="#50333a" opacity=".3"/>
+  <!-- Bride's flowing skirt and bodice -->
+  <path d="M316 529q-69 62-88 173l-100 315q156 91 352 29l-30-357q-12-104-134-160Z" fill="url(#dress)"/>
+  <path d="M310 576q40 69 83 82-46 151-42 359h-77q32-271-31-424Z" fill="#faf6eb"/>
+  <path d="M267 577q-57 77-94 168l51 35q80-43 113-160" fill="#895642"/>
+  <path d="M284 335q3-83 91-92 96 1 104 103l-11 87q-13 84-92 98-80-13-89-109Z" fill="#85523f"/>
+  <g fill="#292320"><circle cx="291" cy="286" r="51"/><circle cx="338" cy="247" r="60"/><circle cx="398" cy="252" r="56"/><circle cx="451" cy="288" r="46"/></g>
+  <path d="M311 371q15-10 29 0m65 0q15-9 30 1" fill="none" stroke="#362621" stroke-linecap="round" stroke-width="5"/>
+  <ellipse cx="330" cy="388" rx="5" ry="7" fill="#211c1a"/><ellipse cx="415" cy="388" rx="5" ry="7" fill="#211c1a"/>
+  <path d="M371 392q-6 17 3 21m-23 29q19 16 39 0" fill="none" stroke="#5b352c" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="310" cy="418" r="12" fill="#cc8570" opacity=".66"/><circle cx="437" cy="418" r="12" fill="#cc8570" opacity=".66"/>
+  <path d="m319 502 58 62 60-68 21 41-83 91-83-90Z" fill="#fffaf1"/>
+  <path d="m376 567 17 25-15 74-19-74Z" fill="#ae8950"/>
+  <circle cx="376" cy="675" r="9" fill="#ae8950"/>
+  <!-- Groom -->
+  <path d="M538 520q-82 36-96 127l-47 350q153 72 355-5l-67-370q-12-74-95-105Z" fill="#25262b"/>
+  <path d="m533 528 58 89 55-96q2 217 53 365-65 33-134 8 39-184-32-366Z" fill="#f4f0e8"/>
+  <path d="m533 531 58 86-52 66-44-82Zm114-8-57 94 56 64 43-85Z" fill="#1f2024"/>
+  <path d="m590 620-15 33 20 179 21-180-16-32Z" fill="#9e5749"/>
+  <path d="M550 299q1-83 80-88 85 3 90 103l-8 91q-12 85-91 103-78-18-85-105Z" fill="#704635"/>
+  <path d="M542 318q-10-75 61-99 96-16 123 60l-2 44q-34-49-94-53-49 1-84 37Z" fill="#211d1c"/>
+  <path d="M564 394q15-10 31 0m66 0q15-10 31 1" fill="none" stroke="#30221d" stroke-linecap="round" stroke-width="5"/>
+  <ellipse cx="583" cy="411" rx="5" ry="7" fill="#201b19"/><ellipse cx="679" cy="411" rx="5" ry="7" fill="#201b19"/>
+  <path d="M625 412q-7 18 3 22m-22 27q22 17 45 0" fill="none" stroke="#482c23" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="559" cy="437" r="12" fill="#bd7760" opacity=".64"/><circle cx="706" cy="437" r="12" fill="#bd7760" opacity=".64"/>
+  <path d="M555 522q53 33 108-1l-1 35q-53 34-104 0Z" fill="#fffdf8"/>
+  <!-- Hands joined between them -->
+  <path d="M435 675q33-23 61 2l35 23-21 27-45-12q-38 10-61-18Z" fill="#85523f"/>
+  <path d="M521 698q20-31 46-13l33 20-22 26-52 6-24-20Z" fill="#704635"/>
+  <g fill="#d7b69c"><circle cx="84" cy="298" r="5"/><circle cx="819" cy="446" r="5"/><circle cx="691" cy="493" r="4"/></g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">An illustrated couple walking together</title>
+  <desc id="desc">The same fictional bride and groom, smiling as they walk together through a sunny landscape.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f2d6ce"/><stop offset=".77" stop-color="#eee2d9"/><stop offset="1" stop-color="#d9bfc0"/></linearGradient>
+    <linearGradient id="gown" x2="0" y2="1"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#ded3c3"/></linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#sky)"/>
+  <circle cx="1122" cy="193" r="121" fill="#f9edcc" opacity=".75"/>
+  <path d="M0 492q189-119 374-39t348-27q174-83 348-5t330-2v481H0Z" fill="#cfb2a8"/>
+  <path d="M0 631q226-81 421-14t340-23q177-53 342-3t297-7v316H0Z" fill="#916e71"/>
+  <path d="M0 775q263-44 438 0t400-9q220-44 562-3v137H0Z" fill="#62454e"/>
+  <g fill="#f3ead5" opacity=".86">
+    <circle cx="133" cy="573" r="8"/><circle cx="166" cy="558" r="6"/><circle cx="1239" cy="536" r="9"/>
+    <circle cx="1272" cy="516" r="5"/><circle cx="1005" cy="647" r="7"/><circle cx="270" cy="684" r="6"/>
+  </g>
+  <g fill="none" stroke="#78434d" stroke-width="8" stroke-linecap="round">
+    <path d="M60 710q28-98 4-190m6 100q-48-30-53-68m54 48q41-42 39-79"/>
+    <path d="M1334 692q-27-97-6-181m0 90q49-34 55-74m-55 51q-39-37-39-73"/>
+  </g>
+  <ellipse cx="719" cy="818" rx="350" ry="32" fill="#493239" opacity=".25"/>
+  <!-- Bride, mid-stride -->
+  <path d="M520 459q-65 35-78 103l-77 229q81 44 194 32l47-193q18-106-86-171Z" fill="url(#gown)"/>
+  <path d="M517 498q-36 87-93 273l44 21q76-103 117-231" fill="#fffaf2"/>
+  <path d="M482 493q-49 33-73 87l32 29q63-36 82-93" fill="#895642"/>
+  <path d="M488 330q0-68 66-76 74 5 78 81l-7 64q-10 67-69 78-65-10-69-83Z" fill="#85523f"/>
+  <g fill="#292320"><circle cx="483" cy="288" r="39"/><circle cx="520" cy="253" r="48"/><circle cx="570" cy="260" r="43"/><circle cx="610" cy="291" r="36"/></g>
+  <path d="M500 352q12-8 24 0m53 0q12-8 24 0" fill="none" stroke="#362621" stroke-linecap="round" stroke-width="4"/>
+  <ellipse cx="515" cy="367" rx="4" ry="5" fill="#211c1a"/><ellipse cx="585" cy="367" rx="4" ry="5" fill="#211c1a"/>
+  <path d="M550 369q-5 13 2 17m-19 22q17 13 33-1" fill="none" stroke="#5b352c" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="496" cy="389" r="9" fill="#cc8570" opacity=".66"/><circle cx="605" cy="389" r="9" fill="#cc8570" opacity=".66"/>
+  <path d="m510 455 42 51 44-56 19 31-62 70-61-68Z" fill="#fffaf1"/>
+  <path d="m552 500 14 20-13 53-14-53Z" fill="#ae8950"/>
+  <circle cx="552" cy="594" r="7" fill="#ae8950"/>
+  <!-- Groom, mid-stride -->
+  <path d="M689 445q-63 24-79 92l-42 250q107 47 258 4l-43-257q-11-57-74-81Z" fill="#25262b"/>
+  <path d="m685 452 42 68 43-72q3 144 42 253-50 24-102 6 30-128-25-255Z" fill="#f4f0e8"/>
+  <path d="m685 454 42 67-39 50-34-64Zm84-6-42 73 41 49 33-66Z" fill="#1f2024"/>
+  <path d="m727 523-12 25 16 125 17-126-13-24Z" fill="#9e5749"/>
+  <path d="M699 300q2-63 61-68 63 3 68 78l-7 68q-10 64-68 76-59-13-62-78Z" fill="#704635"/>
+  <path d="M693 314q-7-59 46-77 75-13 97 45l-1 36q-27-38-73-41-39 1-66 29Z" fill="#211d1c"/>
+  <path d="M709 370q12-8 24 0m52 0q12-8 24 0" fill="none" stroke="#30221d" stroke-linecap="round" stroke-width="4"/>
+  <ellipse cx="724" cy="385" rx="4" ry="5" fill="#201b19"/><ellipse cx="800" cy="385" rx="4" ry="5" fill="#201b19"/>
+  <path d="M760 385q-6 15 2 18m-17 22q17 13 34-1" fill="none" stroke="#482c23" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="705" cy="405" r="9" fill="#bd7760" opacity=".65"/><circle cx="817" cy="405" r="9" fill="#bd7760" opacity=".65"/>
+  <path d="M702 447q40 26 81-1l-1 28q-40 26-77 0Z" fill="#fffdf8"/>
+  <!-- Joined hands -->
+  <path d="M607 561q28-17 49 2l26 18-17 20-36-10q-29 7-47-14Z" fill="#85523f"/>
+  <path d="M675 578q15-24 36-10l26 16-17 20-39 4-18-15Z" fill="#704635"/>
+  <!-- Sunlit petals -->
+  <g fill="#fff8ed" opacity=".85"><circle cx="306" cy="370" r="4"/><circle cx="975" cy="312" r="5"/><circle cx="1068" cy="564" r="4"/><circle cx="392" cy="253" r="4"/></g>
+</svg>
