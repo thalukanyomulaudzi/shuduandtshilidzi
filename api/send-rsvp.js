@@ -173,5 +173,66 @@ module.exports = async function handler(request, response) {
     return response.status(502).json({ error: "We couldn’t send your reply just now. Your details are still here — please try again." });
   }
 
-  return response.status(200).json({ message: "Your reply has been sent." });
+  const guestConfirmation = {
+    from: sender,
+    to: [email],
+    reply_to: recipient,
+    subject: "We’ve received your wedding RSVP — Shudu & Tshilidzi",
+    text: [
+      `Dear ${name},`,
+      "",
+      "Thank you for replying to our wedding invitation. We’ve received your RSVP.",
+      "",
+      `Your response: ${responseLabel}`,
+      "",
+      "Wedding details",
+      "Date: 18 December 2026",
+      "Time: 10:00 AM South African time",
+      "Venue: The Marc Lifestyle Venue",
+      "",
+      "With love,",
+      "Shudu & Tshilidzi"
+    ].join("\n"),
+    html: [
+      `<p>Dear ${safeName},</p>`,
+      "<p>Thank you for replying to our wedding invitation. We’ve received your RSVP.</p>",
+      `<p><strong>Your response:</strong> ${responseLabel}</p>`,
+      "<h2>Wedding details</h2>",
+      "<p><strong>Date:</strong> 18 December 2026<br>",
+      "<strong>Time:</strong> 10:00 AM South African time<br>",
+      "<strong>Venue:</strong> The Marc Lifestyle Venue</p>",
+      "<p>With love,<br>Shudu &amp; Tshilidzi</p>"
+    ].join("")
+  };
+
+  let confirmationResponse;
+  try {
+    confirmationResponse = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(guestConfirmation)
+    });
+  } catch (error) {
+    console.error("RSVP guest confirmation email request failed:", error.name);
+    return response.status(200).json({
+      message: "Your RSVP has been received, but the confirmation email could not be sent.",
+      confirmationEmailSent: false
+    });
+  }
+
+  if (!confirmationResponse.ok) {
+    console.error("RSVP guest confirmation email was rejected. HTTP status:", confirmationResponse.status);
+    return response.status(200).json({
+      message: "Your RSVP has been received, but the confirmation email could not be sent.",
+      confirmationEmailSent: false
+    });
+  }
+
+  return response.status(200).json({
+    message: "Your RSVP has been received and a confirmation email has been sent.",
+    confirmationEmailSent: true
+  });
 };

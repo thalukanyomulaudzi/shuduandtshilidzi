@@ -448,6 +448,7 @@
   const submitButton = document.querySelector("#submit-button");
   const status = document.querySelector("#form-status");
   const success = document.querySelector("#rsvp-success");
+  const confirmationMessage = document.querySelector("#rsvp-confirmation-message");
   if (weddingConfig.rsvpDeadline) {
     const deadline = new Date(`${weddingConfig.rsvpDeadline}T00:00:00+02:00`);
     if (!Number.isNaN(deadline.getTime()) && Date.now() > deadline.getTime() + 86_399_999) {
@@ -475,26 +476,31 @@
     submitButton.disabled = true;
     submitButton.setAttribute("aria-busy", "true");
     submitButton.dataset.originalText = submitButton.innerHTML;
-    submitButton.textContent = "Sending your reply…";
+    submitButton.textContent = "Sending your RSVP…";
 
     const controller = new AbortController();
     const timeout = window.setTimeout(() => controller.abort(), 15_000);
     try {
-      const response = await fetch("/api/send-rsvp", {
+      const response = await fetch("/api/send-rsvp.php", {
         method: "POST",
-        headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify(payload),
+        headers: { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8", "Accept": "application/json" },
+        body: new URLSearchParams(payload).toString(),
         signal: controller.signal
       });
       let result;
       try {
         result = await response.json();
       } catch {
-        throw new Error("We couldn’t connect to our RSVP service. Please use the live wedding website or try again later. Your details are still here.");
+        throw new Error("Our RSVP service isn’t available on this website yet. Please try again later. Your details are still here.");
       }
       if (!response.ok) {
         throw new Error(result.error || "Your reply couldn’t be sent just now. Please try again.");
       }
+      confirmationMessage.textContent = result.confirmationEmailSent === true
+        ? "A confirmation email is on its way to the email address you provided."
+        : result.confirmationEmailSent === false
+          ? "Your RSVP has been received, but we couldn’t send a confirmation email. Please contact us if you need confirmation."
+          : "";
       form.hidden = true;
       success.hidden = false;
       success.focus();
